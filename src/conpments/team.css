@@ -1,0 +1,53 @@
+
+
+ .s{
+    font-size: 30px;
+color:#ff6200;
+ }
+ .d{
+    font-size: 40px;
+  font-weight: bold;
+  color:#000000;
+ }
+
+
+  
+.card:hover {
+  background-color: #f8f9fa; 
+  transform: scale(1.1); 
+}
+  
+ 
+  .card {
+    transition: transform 0.3s ease-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    transition: transform 0.3s ease-out;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.1);
+  }
+  
+  .card-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #666666;
+  }
+  
+
+  
+

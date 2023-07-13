@@ -1,0 +1,103 @@
+.post-media{
+width: 250px;
+
+}
+
+
+button {
+    background-color: #ff6200 !important;
+    color: #363636 !important;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold !important ;
+    width:50%;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+.name{
+    color:#ff6200 ;
+    font-family: 'Corben', cursive;
+}
+.sectio{
+    margin-top: 200px;
+    margin-bottom:200px ;
+}
+.post {
+    width: 20%;
+    height: 500px;
+  }
+.car{
+    width: 550px;
+    height: 550px;
+}
+.titl{
+    
+    font-weight: bold !important ;
+color:#805175;
+}
+.sectio {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .col-md-6:first-child {
+    order: 2;
+  }
+  
+  .col-md-6:last-child {
+    order: 1;
+  }
+  
+  .message-box {
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+   --box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  .car {
+    margin-right: auto;
+    margin-left: 0;
+  }
+  
+  .b {
+    float: left;
+  }
+  .b:hover{
+    background-color: #f9cbb1 !important;
+    transition:0.2ms;
+  }
+ p {
+    padding : 0;
+    margin : 0;
+  }
+  .about-text {
+padding-top: 0px;
+  }
+  .about-text {
+    margin-bottom: 0 !important;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .carousel-wrapper .carousel {
+      height:400px;
+      width: 400px;
+
+    }
+    
+    .carousel-wrapper .carousel-item img {
+      height: 400px;
+      width: 400px;
+      object-fit: cover;
+    }
+  }

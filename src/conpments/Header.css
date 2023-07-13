@@ -1,0 +1,93 @@
+header{
+  
+   background-size: cover;
+   background-position: center center;
+   width:100%;
+   max-width: 100%;
+   text-align: left;
+   height: 700px;
+   overflow: hidden;
+   padding-top: 90px;
+
+ 
+}
+header h1{
+    color:#ff6200;
+   
+    font-family: 'Corben', cursive;
+    margin: 10px 0 5px 0;
+
+
+}
+header h2{
+    color: #363636;
+     font-family: 'Montserrat', sans-serif;
+     font-size: medium;
+     margin: 20px 0px;
+     
+}
+header button {
+    background-color: #ff6200 !important;
+    color: #363636 !important;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold !important ;
+    width:50%;
+    height: 40px;
+    margin: 10px 0px;
+}
+
+.your{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+header img{
+    height: 150px;
+    width :170px;
+    margin-left: 0%;
+   margin-bottom: 2%;
+
+   
+}
+
+
+
+
+header button:hover{
+    background-color: #ff6200 !important;
+    transition:0.2ms;
+
+}
+@media only screen and (max-width: 600px) {
+    header {
+    height: auto;
+    overflow: visible;
+    
+    }
+    header img {
+    height: 100px;
+    width: 120px;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    }
+    header h1 {
+    font-size: 24px;
+    }
+    header h2 {
+    font-size: 16px;
+    margin: 10px 0;
+    }
+    header button {
+    width: 80%;
+    height: 30px;
+    margin: 10px auto;
+    }
+    .your {
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+    }
+
+  

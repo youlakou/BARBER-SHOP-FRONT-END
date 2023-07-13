@@ -1,0 +1,42 @@
+#product_image {
+    text-align: center;
+  }
+  
+  #product_id {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  .rating-outer {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+  }
+  
+  .rating-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #ffbf00;
+  }
+  
+  #no_of_reviews {
+    font-size: 14px;
+    color: gray;
+    margin-left: 5px;
+  }
+  
+  #product_price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #stock_status {
+    color: green;
+    font-weight: bold;}

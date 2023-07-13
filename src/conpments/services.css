@@ -1,0 +1,43 @@
+.service-image {
+  width: 100%;
+
+  max-width: 500px; 
+  margin: 0 auto;
+  display: block;
+}
+
+.services {
+  margin-bottom: 30px;
+}
+section h3{
+  color:#ff6200 ;
+   
+  font-family: 'Corben', cursive;
+}
+.services-section {
+  margin-top: 50px;
+}
+
+.w{
+font-size: 40px;
+  font-weight: bold;
+  color:#000000;
+  text-align: center; 
+}
+.o{
+font-size: 30px;
+color:#ff6200;
+text-align: center; 
+}
+
+.ftco-section{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.ser {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+

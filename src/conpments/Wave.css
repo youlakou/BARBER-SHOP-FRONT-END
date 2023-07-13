@@ -1,0 +1,32 @@
+.wavies > use {
+    animation: waveAround 12s linear infinite;
+  }
+  
+  .wavies > use:nth-child(1) {
+    animation-delay: -2s;
+  }
+  
+  .wavies > use:nth-child(2) {
+    animation-delay: -1s;
+    animation-duration: 5s;
+  }
+  
+  .wavies > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 3s;
+  }
+  
+  @keyframes waveAround {
+    0% {
+      transform: translate(-90px, 0%);
+    }
+    100% {
+      transform: translate(85px, 0%);
+    }
+  }
+  @media (min-width: 768px) {
+    svg {
+      width: 100%;
+      height: 100px;
+    }
+  }
